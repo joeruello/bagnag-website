@@ -3,65 +3,19 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: '#F77B26',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'baseline',
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0, marginRight: 16 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-      <nav>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-            marginRight: 8,
-          }}
-        >
-          About
-        </Link>
-        <Link
-          to="/support"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-            marginRight: 8,
-          }}
-        >
-          Support
-        </Link>
-        <Link
-          to="/privacy"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Privacy
-        </Link>
-      </nav>
+  <nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <Link className="py-2 d-none d-md-inline-block" to="/">
+        Download
+      </Link>
+      <Link className="py-2 d-none d-md-inline-block" to="/about">
+        About
+      </Link>
+      <Link className="py-2 d-none d-md-inline-block" to="/privacy">
+        Privacy
+      </Link>
     </div>
-  </div>
+  </nav>
 )
 
 Header.propTypes = {
