@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/bagnag-website',
   siteMetadata: {
     title: 'Bagnag',
   },
@@ -17,12 +18,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'bagnag',
-        short_name: 'bagna',
+        short_name: 'bagnag',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#F77B26',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/icon.png', // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
