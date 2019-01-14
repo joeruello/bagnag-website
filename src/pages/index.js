@@ -54,10 +54,7 @@ const IndexPage = () => (
               <h1 class="display-5 font-weight-normal text-white">
                 Never forget your resusable bags again
               </h1>
-              <p class="lead font-weight-normal">
-                And an even wittier subheading to boot. Jumpstart your marketing
-                efforts with this example based on Apple’s marketing pages.
-              </p>
+              <p class="lead font-weight-normal" />
               <a href="https://itunes.apple.com/us/app/bagnag/id1446253855?ls=1&mt=8">
                 <img
                   style={{ maxWidth: 150 }}
