@@ -83,22 +83,22 @@ const IndexPage = () => (
             minute.
           </p>
           <p>
-            Enter Bag Nag. Bag Nag is a nifty new app that uses geofencing to
-            help people remember to grab their green bags out of the car before
-            going shopping at their local supermarket. Bag Nag can help people
-            save time and money by preventing them from either having to walk
-            back to their cars to retrieve forgotten bags, or purchase new bags
-            at the checkout. Bag Nag also helps protect the environment, by
-            ensuring people really are reusing their bags, instead of doubling
-            up by purchasing bags that will just sit around the house and
-            eventually end up in the garbage bin.
+            Enter BagNag. BagNag is a nifty new app that uses geofencing to help
+            people remember to grab their green bags out of the car before going
+            shopping at their local supermarket. BagNag can help people save
+            time and money by preventing them from either having to walk back to
+            their cars to retrieve forgotten bags, or purchase new bags at the
+            checkout. BagNag also helps protect the environment, by ensuring
+            people really are reusing their bags, instead of doubling up by
+            purchasing bags that will just sit around the house and eventually
+            end up in the garbage bin.
           </p>
           <p>
-            Bag Nag is easy to use, you simply select your favourite Coles and
+            BagNag is easy to use, you simply select your favourite Coles and
             Woolworths stores and whenever you come within 100m of a shopping
-            centre you nominated, Bag Nag will send an alert to your phone,
+            centre you nominated, BagNag will send an alert to your phone,
             reminding you to bring your bags. There is no need to open the app,
-            the reminder is automatic! Bag Nag costs the equivalent of one green
+            the reminder is automatic! BagNag costs the equivalent of one green
             bag purchase ($0.99) and will save you time and money, all whilst
             helping the environment.
           </p>
