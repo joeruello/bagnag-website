@@ -45,10 +45,9 @@ export default class Header extends React.Component {
               `}
               render={data => (
                 <Img
+                  style={{ width: 35, height: 35, marginRight: 8 }}
                   fluid={data.placeholderImage.childImageSharp.fluid}
-                  width="30"
-                  height="30"
-                  className="d-inline-block align-top"
+                  className="d-inline-block align-bottom"
                 />
               )}
             />
