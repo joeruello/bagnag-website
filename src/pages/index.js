@@ -61,7 +61,7 @@ const IndexPage = () => (
                   src={data.appBadge.childImageSharp.fluid.src}
                 />
               </a>
-              <a href="https://play.google.com/store/apps/details?id=com.bagnag&ah=unlqAJrPHDmgYpLgZPipyt-iD6g">
+              <a href="https://play.google.com/store/apps/details?id=au.com.bagnag">
                 <img
                   style={{ maxWidth: 150 }}
                   src={data.playImage.childImageSharp.fluid.src}
